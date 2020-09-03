@@ -57,8 +57,8 @@ function calcularMaiorIdade(vet){ // vet vai apontar para o vetor
     console.log(`Entrou na função calcular maior idade `)
     let maiorIdade = 0 // assume que o primeiro habitante tem a maior idade
     for(let i=1;i<vet.lenght;i++){
-        if((vet[i].idade > maiorIdade{ 
-            maiorIdade = vet[i].idade// atualiza maior idade
+        if(vet[i].idade > maiorIdade){ 
+            maiorIdade = vet[i].idade // atualiza maior idade
         }
     }
     console.log(`A maior idade é de ${maiorIdade}`)   
